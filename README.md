@@ -12,3 +12,13 @@ Pasos:
 Este es un repositorio no oficial para mostrar como se manejan todos los dispositivos que se encuentran en la placa misma.
 
 El código que viene de fábrica está en la carpeta `RGB_LED_test`
+
+
+Resúmen de las lecciones:
+
+1. Cómo encender un pin.
+2. Encender intermitentemente un pin.
+3. Uso de PWM para ajustar la intensidad de un pin (ajuste de brillo en LEDs).
+4. Usar el botón de usuario (situado a un costado del botón de RESET) para encender un pin.
+5. Reproductor de una melodía mediante el buzzer incorporado.
+6. Control de los LEDs RGB (RGB1 y RGB2)

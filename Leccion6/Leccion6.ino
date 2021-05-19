@@ -30,18 +30,23 @@ void loop(){
     rgb1.clear();
     rgb2.clear();
 
-    uint16_t i, j;
-
+    uint16_t j;
     for(j=0; j<256; j++) {      
       rgb1.setPixelColor(0, Wheel((1+j) & 255));           
       rgb1.show();
       delay(50);
     }
 
+    for(j=0; j<256; j++) {      
+      rgb2.setPixelColor(0, Wheel((1+j) & 255));           
+      rgb2.show();
+      delay(50);
+    }
+
     // Para apagar los LEDs
     rgb1.setPixelColor(0, 0);           
     rgb1.show();
-    for(;;){}
+    for(;;){}     //Evita que vuelva a ejecutarse el codigo
 }
 
 
