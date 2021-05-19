@@ -14,7 +14,7 @@ Este es un repositorio no oficial para mostrar como se manejan todos los disposi
 El código que viene de fábrica está en la carpeta `RGB_LED_test`
 
 
-Resúmen de las lecciones:
+## Resúmen de las lecciones:
 
 1. Cómo encender un pin.
 2. Encender intermitentemente un pin.
